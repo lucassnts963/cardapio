@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 70px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.funcionamento {
+  display: flex;
+  flex-direction: column;
+}
+
+.funcionamento span {
+  font-weight: 700;
+}
+
+.entrega {
+  display: flex;
+  flex-direction: column;
+}
+
+.entrega span {
+  font-weight: 700;
+}
+
+.pagamentos {
+  display: flex;
+  flex-direction: column;
+}
+
+.pagamentos span {
+  font-weight: 700;
+}
+
+.promocao {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  text-align: center;
+}
+
+.promocao small {
+  color: red;
+  font-size: 18pt;
+}
+
+.separator {
+  border-bottom: 1px solid #666;
+  width: 1px;
+  height: 100px;
+}
+
+@media (min-width: 360px) {
+  .container {
+    flex-direction: column;
+    height: fit-content;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .separator {
+    width: 100px;
+    height: 1px;
+  }
+}

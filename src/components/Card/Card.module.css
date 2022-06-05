@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 5px;
+  height: 100px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  max-width: 50%;
+}
+
+.details {
+  color: #555;
+  text-align: justify;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #E3000F;
+  font-size: 24pt;
+  margin-right: 20px;
+}
+
+@media (min-width: 360px) {
+  .container {
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 10px;
+  }
+  .second {
+    font-size: 18pt;
+  }
+}
